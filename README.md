@@ -23,6 +23,20 @@
   }
 ]
 ```
+
+- **Example response**
+```
+[
+  {
+    "_id": "67da9112c9b2faa1e2b40c29",
+    "title": "Cover Picture",
+    "content": "Update the cover picture",
+    "scheduledFor": "Wed Mar 19 2025 10:45:00 GMT+0000 (Coordinated Universal Time)",
+    "platforms": ["facebook"],
+    "image": "data:image/png;base64, ....
+  }
+]
+```
 ---
 
 #### 2. Create a New Post
@@ -65,6 +79,22 @@
   "error": "Failed to create post"
 }
 ```
+
+- **Example response**
+```
+{
+  "message": "Post created successfully",
+  "post": {
+    "title": "Reel",
+    "content": "Share a reel",
+    "scheduledFor": "Wed Mar 19 2025 10:45:00 GMT+0000 (Coordinated Universal Time)",
+    "platforms": ["instagram"],
+    "image": "data:image/png;base64, ...
+    "_id": "67f10d2469aa78e2b0529423",
+    "__v": 0
+}
+```
+
 ---
 
 #### 3. Delete Post by ID
@@ -87,5 +117,12 @@
     or,
 {
   "error": "Failed to delete post"
+}
+```
+
+- **Example response**
+```
+{
+  "message": "Post deleted successfully"
 }
 ```
