@@ -74,7 +74,7 @@
 {
   "error": "All fields are required"
 }
-    or,
+    or
 {
   "error": "Failed to create post"
 }
@@ -114,7 +114,7 @@
 {
   "error": "Post not found"
 }
-    or,
+    or
 {
   "error": "Failed to delete post"
 }
